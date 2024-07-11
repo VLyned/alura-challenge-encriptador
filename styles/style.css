@@ -1,0 +1,15 @@
+// Reset CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Variables
+:root {
+    --color-text: #343A40;
+    --color-background: #F3F5FC;
+    --color-primary: #0A3871;
+    --color-secondary: #D8DFE8;
+    --color-accent: #2D4AA8;
+}
