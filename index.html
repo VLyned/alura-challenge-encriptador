@@ -1,35 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge encriptador</title>
-</head>
-<body>
-    <header>
-        <img src="./assets/alura-logo.svg" alt="Logo de Alura">
-    </header>
-    <main>
-        <section>
-            <input type="text" id="texto" placeholder="Texto a encriptar">
-            <p>Solo letras minúsculas y sin acentos</p>
-            <div>
-                <button id="encriptar">Encriptar</button>
-                <button id="desencriptar">Desencriptar</button>
-            </div>
-        </section>
-        <aside>
-            <p id="resultado"></p>
-            <img src="./assets/aside-image.svg" alt="Imagen referencial de aside">
-            <div>
-                <h2>Ningún mensaje fue encontrado</h2>
-                <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
-            </div>
-            <button id="copiar">Copiar</button>
-        </aside>
-    </main>
-    <footer>
-        
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Challenge encriptador</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./styles/style.css"
+        />
+    </head>
+    <body>
+        <main>
+            <header>
+                <img
+                    src="./assets/alura-logo.svg"
+                    alt="Logo de Alura"
+                />
+            </header>
+            <section>
+                <textarea
+                    type="text"
+                    id="texto"
+                    placeholder="Ingrese el texto aqui..."
+                ></textarea>
+                <p>Solo letras minúsculas y sin acentos</p>
+                <div class="section-buttons">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+            <aside>
+                <div class="aside-content">
+                    <p id="resultado"></p>
+                    <img
+                        id="aside-image"
+                        src="./assets/aside-image.svg"
+                        alt="Imagen referencial de aside"
+                    />
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+                </div>
+                <button id="copiar">Copiar</button>
+            </aside>
+        </main>
+        <footer></footer>
+    </body>
 </html>
