@@ -27,7 +27,7 @@
                     id="texto"
                     placeholder="Ingrese el texto aqui..."
                 ></textarea>
-                <p>Solo letras minúsculas y sin acentos</p>
+                <p class="information"><img src="./assets/exclamation-icon.svg" alt="exclamacion">Solo letras minúsculas y sin acentos</p>
                 <div class="section-buttons">
                     <button id="encriptar">Encriptar</button>
                     <button id="desencriptar">Desencriptar</button>
@@ -35,7 +35,6 @@
             </section>
             <aside>
                 <div class="aside-content">
-                    <p id="resultado"></p>
                     <img
                         id="aside-image"
                         src="./assets/aside-image.svg"
@@ -44,7 +43,10 @@
                     <h2>Ningún mensaje fue encontrado</h2>
                     <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
                 </div>
-                <button id="copiar">Copiar</button>
+                <div class="aside-result hidden">
+                    <p id="resultado"></p>
+                    <button id="copiar">Copiar</button>
+                </div>
             </aside>
         </main>
         <footer></footer>
